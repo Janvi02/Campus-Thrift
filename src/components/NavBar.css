@@ -1,0 +1,52 @@
+/* NavBar.css */
+.navbar {
+    background-color: #1E90FF; /* Blue color for the navbar */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 40px; /* Adjust the logo size */
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .brand-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .login-btn {
+    background-color: #555; /* Darker button color for login/signup */
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+  }
+  
+  .login-btn:hover {
+    background-color: #333; /* Darker on hover */
+  }
+  

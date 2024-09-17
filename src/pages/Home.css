@@ -1,0 +1,82 @@
+.home-container {
+    text-align: center;
+    padding: 2rem;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h2 {
+    color: #01030e;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .search-bar input {
+    width: 300px;
+    padding: 0.5rem;
+    border: 2px solid #031b34;
+    border-radius: 4px;
+  }
+  
+  .search-bar button {
+    padding: 0.5rem;
+    border: none;
+    background-color: #98bcdf;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .slider-section {
+    margin-top: 2rem;
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  .slider-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .slick-prev, .slick-next {
+    color: black !important;
+  }
+  
+  .footer {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    background-color: #f8f8f8;
+    border-top: 2px solid #3447ad;
+  }
+  .social-media-section {
+    margin-top: 20px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .social-icon {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.2s;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+  }
+  
